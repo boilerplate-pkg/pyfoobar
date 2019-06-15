@@ -13,3 +13,8 @@ run current line, shift+entre
 
 "stopOnEntry": true,
 "pythonPath": "${workspaceFolder}/.venv"
+
+
+# extension
+
+## git graph
