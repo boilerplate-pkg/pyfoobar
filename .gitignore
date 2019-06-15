@@ -1,2 +1,4 @@
 *-checkpoint.ipynb
 /.idea/
+/venv/
+/pyfoobar/tests/__pycache__/
