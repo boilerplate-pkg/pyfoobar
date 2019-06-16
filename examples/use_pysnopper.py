@@ -23,6 +23,7 @@ import random
 def foo():
     lst = []
     for i in range(10):
+        print(i)
         lst.append(random.randrange(1, 1000))
 
     with pysnooper.snoop():

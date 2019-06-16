@@ -4,3 +4,6 @@ pysnooper
 numpy
 matplotlib
 pylint
+ipython
+mpld3
+jinja2
