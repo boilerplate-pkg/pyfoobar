@@ -1,0 +1,4 @@
+
+msg = "helloword"
+
+print msg

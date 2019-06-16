@@ -5,5 +5,8 @@ numpy
 matplotlib
 pylint
 ipython
-mpld3
-jinja2
+pep8
+pylint
+
+#debug view
+pandas

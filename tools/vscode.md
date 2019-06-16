@@ -23,6 +23,17 @@ run current line, shift+entre
  "python.autoComplete.addBrackets": true,
  ```
 
+### format
+```
+"python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+"python.formatting.yapfArgs": ["--style", "{based_on_style: chromium, indent_width: 20}"]
+"python.formatting.blackArgs": ["--line-length", "100"]
+```
+
+### Refactoring
+
+
+
 ## debug
 
 "stopOnEntry": true,

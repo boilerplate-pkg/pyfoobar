@@ -3,7 +3,11 @@
 This will be another comment line 
 for the testing of the different sections
 """
+#%%
+# seperators without lines divide the code between cells. Code cell by default
+import matplotlib.pyplot
 import numpy as np
+
 a = np.array([[1,1]])
 # one line comment test
 print(a.shape)
@@ -14,9 +18,6 @@ line command block"""
 
 #%% This is the second cell
 b = 6
-#%%
-# seperators without lines divide the code between cells. Code cell by default
-import matplotlib.pyplot all_plt
 x = np.array([1,2,3,4,5])
 y = np.array([4,5,6,7,8])
 #%%
