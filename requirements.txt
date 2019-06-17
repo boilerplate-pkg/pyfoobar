@@ -8,8 +8,19 @@ ipython
 pep8
 pylint
 
+# formatter
+autopep8
+
 #debug view
 pandas
+jupyter
 
 #docs
 sphinx
+sphinx-autobuild
+doc8
+
+#unittest
+pytest
+fixtures
+
