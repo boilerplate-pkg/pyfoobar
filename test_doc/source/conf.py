@@ -10,20 +10,16 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-import os.path
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 
-docs_dir = os.path.dirname(__file__)
-repo_dir = os.path.abspath(os.path.join(docs_dir, '..'))
-sys.path.insert(0, repo_dir)
-os.chdir(repo_dir)
 
 # -- Project information -----------------------------------------------------
 
-project = 'pyfoobar'
-copyright = '2019, chen-zhihui'
-author = 'chen-zhihui'
+project = 'dd'
+copyright = '2019, dd'
+author = 'dd'
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,16 +27,8 @@ author = 'chen-zhihui'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc',
-            #   'sphinx_epytext',
-              'sphinx.ext.todo',
-              'sphinx.ext.coverage',
-              'sphinx.ext.viewcode',
-              'sphinx.ext.autosummary',
-              'sphinx.ext.napoleon']
-
-
-master_doc = 'contents'
+extensions = [
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

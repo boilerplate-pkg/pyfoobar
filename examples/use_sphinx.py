@@ -24,4 +24,8 @@ settings.json
     "restructuredtext.sphinxBuildPath"        : "${workspaceRoot}/venv/bin/sphinx-build/"
 }
 
+
+http://www.sphinx-doc.org/en/stable/usage/quickstart.html
+
+
 '''
