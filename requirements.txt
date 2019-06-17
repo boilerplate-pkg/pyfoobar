@@ -10,3 +10,6 @@ pylint
 
 #debug view
 pandas
+
+#docs
+sphinx
