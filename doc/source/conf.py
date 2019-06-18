@@ -15,7 +15,7 @@ import sys
 import os.path
 
 docs_dir = os.path.dirname(__file__)
-repo_dir = os.path.abspath(os.path.join(docs_dir, '..'))
+repo_dir = os.path.abspath(os.path.join(docs_dir, '../..'))
 sys.path.insert(0, repo_dir)
 os.chdir(repo_dir)
 

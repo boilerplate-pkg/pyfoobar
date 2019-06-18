@@ -47,9 +47,18 @@ Field lists (ref) are sequences of fields marked up like this::
       :returns: A message (just for me, of course).
       """  
 
+    
+.. todo::      
+
+   blah
+   blah
+
 
 sphinx 用法
 ============
+
+学习手册
+https://my-study-restructuredtext.readthedocs.io/en/latest/
 
 sphinx-quickstart
 doc/content.rst 
