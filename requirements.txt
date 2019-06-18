@@ -19,6 +19,7 @@ jupyter
 sphinx
 sphinx-autobuild
 doc8
+autodoc
 
 #unittest
 pytest
