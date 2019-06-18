@@ -4,16 +4,15 @@ pysnooper
 numpy
 matplotlib
 pylint
-ipython
-pep8
-pylint
 
 # formatter
+pep8
 autopep8
 
 #debug view
 pandas
 jupyter
+ipython
 
 #docs
 sphinx

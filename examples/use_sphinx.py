@@ -6,7 +6,8 @@
 reST
   reStructuredText, reST, standard reST markup
 
-  语法手册：https://zh-sphinx-doc.readthedocs.io/en/latest/rest.html
+  `语法手册 <https://zh-sphinx-doc.readthedocs.io/en/latest/rest.html>`_
+  `English Version <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
 sphinx
   sphinx(http://sphinx-doc.org)
@@ -28,6 +29,24 @@ reST 标记 example
  -, 子章节
  ^, 子章节的子章节
  ", 段落
+
+Link
+
+This is a paragraph that contains `Baidu`_.
+
+.. _Baidu: https://www.baidu.com/
+
+Field lists (ref) are sequences of fields marked up like this::
+
+  def my_function(my_arg, my_other_arg):
+      """A function just for me.
+
+      :param my_arg: The first of my arguments.
+      :param my_other_arg: The second of my arguments.
+
+      :returns: A message (just for me, of course).
+      """  
+
 
 sphinx 用法
 ============
