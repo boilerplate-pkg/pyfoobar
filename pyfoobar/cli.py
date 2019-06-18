@@ -18,3 +18,13 @@ def my_function(my_arg, my_other_arg):
     """
 
     return "msg"
+
+
+def main():
+    '''
+    .. todo::
+        unit test
+
+    '''
+
+    pass

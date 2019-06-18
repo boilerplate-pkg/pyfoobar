@@ -7,3 +7,8 @@ pyfoobar
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: pyfoobar.storage
+   :members:
+   :undoc-members:
+   :show-inheritance:
