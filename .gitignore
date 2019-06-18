@@ -7,3 +7,5 @@
 /build/
 /.pytest_cache/
 __pycache__
+/dist/
+/pyfoobar.egg-info/
