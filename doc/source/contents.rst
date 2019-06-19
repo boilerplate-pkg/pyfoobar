@@ -6,3 +6,5 @@
    pyfoobar
    use_sphix
    todo
+   docstyle
+   devtool
