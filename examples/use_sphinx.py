@@ -59,6 +59,7 @@ sphinx 用法
 
 学习手册
 https://my-study-restructuredtext.readthedocs.io/en/latest/
+http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html
 
 sphinx-quickstart
 doc/content.rst 
