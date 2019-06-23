@@ -8,3 +8,4 @@
    todo
    docstyle
    devtool
+   pip

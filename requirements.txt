@@ -5,6 +5,12 @@ numpy
 matplotlib
 pylint
 
+# api mngr
+debtcollector
+
+# language
+pytz
+
 # formatter
 pep8
 autopep8

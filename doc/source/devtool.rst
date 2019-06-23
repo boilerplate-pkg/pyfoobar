@@ -15,6 +15,8 @@ Full Stack Python https://www.fullstackpython.com/
 
 引入外部包：导入路经设置，导入勾子
 
+pip<https://pip.readthedocs.io/en/stable/user_guide>
+
 库
 ================
 
@@ -24,6 +26,8 @@ Full Stack Python https://www.fullstackpython.com/
         标准库
         外部库
         框架
+
+        选用标准：python兼容，开发活跃，维护活跃，与发行版打包，API向后兼容，版权
 
 语言
 ================
@@ -56,6 +60,30 @@ Full Stack Python https://www.fullstackpython.com/
    :undoc-members:
    :show-inheritance:
 
+
+代码管理
+================
+
+API变化
+---------------
+
+sphinx标记 .. deprecated:: 1.1 ::
+
+    .. deprecated:: 1.1
+
+warnings 模块，warnings.warn()::
+
+    warnings.warn("turn_left is deprecated sin Version 1.1, use trun instead")
+
+debtcollector模块标注 ::
+
+    from debtcollector import moves
+    @move.moved_method("turn",version="1.1")
+
+.. automodule:: examples.lang.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
 
 文档
 ================
