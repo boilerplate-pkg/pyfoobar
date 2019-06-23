@@ -22,6 +22,8 @@ ipython
 
 #docs
 sphinx
+recommonmark
+commonmark
 sphinx-autobuild
 doc8
 autodoc
@@ -30,3 +32,5 @@ autodoc
 pytest
 fixtures
 
+#setup tools
+entry_point_inspector

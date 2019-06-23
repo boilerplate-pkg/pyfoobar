@@ -37,7 +37,9 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.coverage',
               'sphinx.ext.viewcode',
               'sphinx.ext.autosummary',
-              'sphinx.ext.napoleon']
+              'sphinx.ext.napoleon',
+              # 'recommonmark'
+              ]
 
 
 master_doc = 'contents'
@@ -68,3 +70,12 @@ html_static_path = ['_static']
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# use markdown
+from recommonmark.parser import CommonMarkParser
+    
+source_parsers = {
+        '.md': CommonMarkParser,
+}
+    
+source_suffix = ['.rst', '.md']
