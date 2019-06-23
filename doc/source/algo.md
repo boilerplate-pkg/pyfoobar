@@ -1,6 +1,7 @@
 算法
 ================
 
+``` eval_rst
 .. automodule:: examples.algo
    :members:
    :undoc-members:
@@ -20,3 +21,4 @@
    :members:
    :undoc-members:
    :show-inheritance:
+```

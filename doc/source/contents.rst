@@ -9,6 +9,7 @@
    algo.md
    libs.md
    storage.md
+   community.md
    todo
    docstyle
 
@@ -20,10 +21,3 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search` 
 
-参考
-================
-
-Full Stack Python https://www.fullstackpython.com/
-
-
-   

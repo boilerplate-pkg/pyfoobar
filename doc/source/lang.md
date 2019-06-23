@@ -1,5 +1,6 @@
 # 语法
 
+```eval_rst
 .. automodule:: examples.lang.slots
    :members:
    :undoc-members:
@@ -9,3 +10,4 @@
    :members:
    :undoc-members:
    :show-inheritance:
+```
