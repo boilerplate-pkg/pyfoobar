@@ -11,3 +11,9 @@
    :undoc-members:
    :show-inheritance:
 ```
+
+### inspect
+
+inspect - Get useful information from live Python objects.
+
+### functools
