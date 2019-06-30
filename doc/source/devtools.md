@@ -9,6 +9,20 @@
 virtualenv venv --system-site-package
 ```
 
+### pip
+
+config
+```
+[global]
+timeout = 60
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+
+trusted-host = pypi.python.org
+               pypi.org
+               files.pythonhosted.org
+               pypi.tuna.tsinghua.edu.cn
+```
+
 ## lint
 
 ## test
