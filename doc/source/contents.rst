@@ -6,6 +6,7 @@
    plugin.md
    devtools.md
    lang.md
+   fp.md
    algo.md
    libs.md
    storage.md
