@@ -35,3 +35,12 @@ six模块是Python为了兼容Python 2.x 和Python 3.x提供的一个模块，�
 
 mro
     method resolution order
+
+
+### util
+
+#### print
+```python
+num = 1
+print(f"coroutine_{num} start")
+```
