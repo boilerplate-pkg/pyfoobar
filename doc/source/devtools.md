@@ -1,6 +1,12 @@
 
 # 开发环境与工具
 
+## reference
+
+https://github.com/jobbole/awesome-python-cn
+
+
+
 ## 虚拟环境
 
 ### virtual env
@@ -12,6 +18,7 @@ virtualenv venv --system-site-package
 ### pip
 
 config
+windows:  C:\Users\tony\AppData\Roaming\pip\pip.ini
 ```
 [global]
 timeout = 60
@@ -23,7 +30,32 @@ trusted-host = pypi.python.org
                pypi.tuna.tsinghua.edu.cn
 ```
 
+## vscode
+
+### config for windows
+
+``` json
+{
+    "cmake-tools-helper.cmake_download_path": "c:\\Users\\tony\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Electron Highlighter",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows" : ["/K", "C:\\Users\\tony\\Anaconda3\\Scripts\\activate.bat", "C:\\Users\\tony\\Anaconda3"],
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false
+}
+```
+
 ## lint
+
+## print
+
+```python
+from pprint import pprint
+```
 
 ## test
 
