@@ -19,5 +19,8 @@ OPENSHOT_PATH = os.path.dirname(os.path.realpath(__file__))
 
 选用标准：python兼容，开发活跃，维护活跃，与发行版打包，API向后兼容，版权
 
+[gui-lib](./libs-gui.md)
+
 ## framework
+
 
