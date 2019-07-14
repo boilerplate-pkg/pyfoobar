@@ -44,3 +44,12 @@ mro
 num = 1
 print(f"coroutine_{num} start")
 ```
+
+
+#### import
+```eval_rst
+.. automodule:: examples.lang.import
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

@@ -4,6 +4,10 @@ import abc
 import functools
 # import .Mngr 
 
+
+def id_of(cls) :
+    return cls.__module__ + "." + cls.__name__
+
 class PickerMngr(object):
 
     pickers = []
@@ -57,5 +61,8 @@ if __name__ == "__main__":
     for picker in PickerMngr.pickers :
         print(picker)
         print(picker["cls"]())
+        print(picker["cls"].__name__)
+        print(picker["cls"].__module__)
+        print(id_of(picker["cls"]))
 
 #%%
