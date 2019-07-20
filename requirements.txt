@@ -34,3 +34,7 @@ fixtures
 
 #setup tools
 entry_point_inspector
+
+#gevent
+gevent
+pyqt5
