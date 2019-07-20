@@ -53,3 +53,12 @@ print(f"coroutine_{num} start")
    :undoc-members:
    :show-inheritance:
 ```
+
+#### function
+
+```eval_rst
+.. automodule:: examples.lang.fun
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```

@@ -2,22 +2,22 @@
 ================
 
 ``` eval_rst
-.. automodule:: examples.algo
+.. automodule:: examples.algorithm
    :members:
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: examples.algo.use_bisect
+.. automodule:: examples.algorithm.use_bisect
    :members:
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: examples.algo.use_defaultdict
+.. automodule:: examples.algorithm.use_defaultdict
    :members:
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: examples.algo.memoization
+.. automodule:: examples.algorithm.memoization
    :members:
    :undoc-members:
    :show-inheritance:
