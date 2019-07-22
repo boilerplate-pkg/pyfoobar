@@ -38,3 +38,6 @@ entry_point_inspector
 #gevent
 gevent
 pyqt5
+
+rx
+aioprocessing
