@@ -10,3 +10,4 @@ __pycache__
 /dist/
 /pyfoobar.egg-info/
 /myvenv/
+dbfile
