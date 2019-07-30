@@ -17,7 +17,7 @@ def show():
         python3 inprocess_qtconsole.py
     """
 
-    global ipython_widget  # Prevent from being garbage collected
+    #global ipython_widget  # Prevent from being garbage collected
 
     # Create an in-process kernel
     kernel_manager = QtInProcessKernelManager()
@@ -31,14 +31,17 @@ def show():
     ipython_widget = RichJupyterWidget()
     ipython_widget.kernel_manager = kernel_manager
     ipython_widget.kernel_client = kernel_client
-    ipython_widget.show()
+    return ipython_widget
 
 
 if __name__ == "__main__":
     app = QtCore.QCoreApplication.instance()
     if not app:
         app = QtWidgets.QApplication([])
-    show()
+    a = show()
+    b = show()
+    a.show()
+    b.show()
     app.exec_()
 
 

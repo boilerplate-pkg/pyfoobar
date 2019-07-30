@@ -36,8 +36,10 @@ fixtures
 entry_point_inspector
 
 #gevent
-gevent
+quamash
+max7219
 pyqt5
+
 
 rx
 aioprocessing
